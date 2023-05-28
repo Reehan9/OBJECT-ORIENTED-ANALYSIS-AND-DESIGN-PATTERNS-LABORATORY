@@ -1,6 +1,3 @@
-package isl67_facade_ut;
-
-import java.util.HashMap;
 import java.util.*;
 
 public class ItemPurchased {
@@ -31,6 +28,5 @@ public class ItemPurchased {
 		Integer qty = sc.nextInt();
 		Items.put(name, qty);
 		}
-
 }
 }
