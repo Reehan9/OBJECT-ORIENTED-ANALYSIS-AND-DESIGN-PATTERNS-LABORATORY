@@ -1,7 +1,4 @@
-package isl67_facade_ut;
-
 import java.util.Scanner;
-
 public class ProcessSales {
 	boolean giftCard;
 	int numItems;
@@ -42,5 +39,4 @@ public class ProcessSales {
 			}
 			}
 		}
-
 }
