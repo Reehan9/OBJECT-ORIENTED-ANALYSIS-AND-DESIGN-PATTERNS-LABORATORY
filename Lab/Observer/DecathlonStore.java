@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 public class DecathlonStore implements Subject {
     private List<Observer> observers;
@@ -20,13 +19,9 @@ public class DecathlonStore implements Subject {
 
     @Override
     public void notifyObservers(Discount discount) {
+        System.out.println("Announcing discount: " + discount.getDescription());
         for (Observer observer : observers) {
             observer.update(discount);
         }
-    }
-
-    public void announceDiscount(Discount discount) {
-        System.out.println("Announcing discount: " + discount.getDescription());
-        notifyObservers(discount);
     }
 }
