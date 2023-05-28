@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 public class TabWindow {
 
-	public static TabWindow sc;
+	private static TabWindow sc;
 	private ArrayList<String> urls;
 	private TabWindow() {
 		// TODO Auto-generated constructor stub
